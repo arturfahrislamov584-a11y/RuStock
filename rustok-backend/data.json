@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "1781751945064",
+      "name": "Тест",
+      "email": "test@test.ru",
+      "password": "$2a$10$vkQOxgvD9sgD0oXD26pRt.nfc0KyqBQU6DYcdDPKYVLmtNH8kfvF6",
+      "role": "user",
+      "credits": 1000,
+      "plan": "starter",
+      "inn": null,
+      "createdAt": "2026-06-18T03:05:45.064Z"
+    },
+    {
+      "id": "1781752009093",
+      "name": "Артур",
+      "email": "arturfahrislamov584@gmail.com",
+      "password": "$2a$10$/FcasNR98xCkabUFTW5ay.m/PrQR9jFMMUQvVUyhXLrIwJ0u87xsy",
+      "role": "user",
+      "credits": 8,
+      "plan": "starter",
+      "inn": null,
+      "createdAt": "2026-06-18T03:06:49.093Z"
+    },
+    {
+      "id": "1781753565352",
+      "name": "????? 2",
+      "email": "test2@test.ru",
+      "password": "$2a$10$DbEr0l0EnPvcM1p5u1fcAefEEbsIW0wtroAvN7Lig2b0YYksNRQ9e",
+      "role": "author",
+      "credits": 50,
+      "plan": "starter",
+      "inn": null,
+      "createdAt": "2026-06-18T03:32:45.352Z",
+      "authorProfile": {
+        "bio": "???????? ?????",
+        "portfolio": "",
+        "specializations": [
+          "photo",
+          "illustration"
+        ],
+        "approved": true,
+        "totalEarnings": 0,
+        "totalSales": 0,
+        "joinedAt": "2026-06-18T03:32:53.940Z"
+      }
+    }
+  ],
+  "downloads": [],
+  "favorites": [],
+  "generations": [
+    {
+      "id": "1781752382556",
+      "userId": "1781752009093",
+      "prompt": "кот в машине, high quality, detailed, professional, 4k",
+      "model": "flux-realism",
+      "url": "blob:http://localhost:3000/7841061f-be59-4612-a573-cb35f4a33a27",
+      "credits": 3,
+      "createdAt": "2026-06-18T03:13:02.556Z"
+    },
+    {
+      "id": "1781753135677",
+      "userId": "1781752009093",
+      "prompt": "синее небо , high quality, detailed, professional, 4k",
+      "model": "flux-realism",
+      "url": "blob:http://localhost:3000/3a805b90-d8b3-4c4e-b915-c9d6db432d51",
+      "credits": 3,
+      "createdAt": "2026-06-18T03:25:35.677Z"
+    },
+    {
+      "id": "1781753180589",
+      "userId": "1781752009093",
+      "prompt": "синее небо человек, high quality, detailed, professional, 4k",
+      "model": "flux-anime",
+      "url": "blob:http://localhost:3000/6fc80d31-bda7-4786-9e31-42fd67499651",
+      "credits": 3,
+      "createdAt": "2026-06-18T03:26:20.589Z"
+    },
+    {
+      "id": "1781753518144",
+      "userId": "1781752009093",
+      "prompt": "неоновая машина, high quality, detailed, professional, 4k",
+      "model": "flux-3d",
+      "url": "blob:http://localhost:3000/5bded28d-3183-4b37-9e8f-2ada2a9cba34",
+      "credits": 3,
+      "createdAt": "2026-06-18T03:31:58.144Z"
+    },
+    {
+      "id": "1781755792884",
+      "userId": "1781752009093",
+      "prompt": "машина неон, high quality, detailed, professional, 4k",
+      "model": "flux-realism",
+      "url": "blob:http://localhost:3000/2f8f8d43-8a97-4318-9fc3-44ebecf62416",
+      "credits": 3,
+      "createdAt": "2026-06-18T04:09:52.884Z"
+    },
+    {
+      "id": "1781758766649",
+      "userId": "1781752009093",
+      "prompt": "кот в машине в кабриолете, high quality, detailed, professional, 4k",
+      "model": "flux",
+      "url": "blob:http://localhost:3000/6d0cc472-3137-46ca-bf5d-d3e7ad393ef0",
+      "credits": 3,
+      "createdAt": "2026-06-18T04:59:26.649Z"
+    }
+  ]
+}
