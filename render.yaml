@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: rustok-backend
+    env: node
+    rootDir: rustok-backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
+    plan: starter # free tier
+
+  - type: static
+    name: rustok-frontend
+    env: static
+    rootDir: rustok-frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://rustok-backend.onrender.com
+    plan: starter
